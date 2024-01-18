@@ -20,9 +20,14 @@ public class Ymodaba {
                 System.out.println("Introduce un valor válido");
             }
         }while(!inputValido);
+        if(n<10){
         for(int i = 0; i < n; i++){
             System.out.println(text);
             text = text + "a";
+        }}else{
+
+            System.out.println("Te has pasado de ymodabas chatito");
+
         }
     }
 }
